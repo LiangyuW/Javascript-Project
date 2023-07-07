@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: Lato,sans-serif;
+  color: #54575A;
+  background: linear-gradient(180deg, #FFF 0%, #F3F8F7 49.91%, #FFF9F5 94.19%);
+}
+
+.wrapper{
+  position: relative;
+  width: 1440px;
+  height: 1379px;
+  margin: auto;
+ 
+}
+
+.brand-img{
+  position: absolute;
+  width: 193px;
+  height: 47.63773727416992px;
+  top: 50.2525634765625px;
+  left: 221px;
+
+}
+
+.player-container{
+  
+  height: 500px;
+  width: 400px;
+  font-family: Dosis, sans-serif;
+  
+  font-size: 20px;
+  text-align: center;
+  position: absolute;
+  top: 620px;
+  left: 36px;
+  background: #e7efef;
+  border-radius: 20px;
+  box-shadow: 0 15px 30px 5px rgba(0,0,0,0.3);
+  
+}
+
+.img-container{
+  position:relative;
+  top: -50px;
+  left: 50px;
+  height: 300px;
+  width: 300px;
+}
+
+.img-container img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 5px 30px 5px rgba(0,0,0,0.5);
+}
+
+.progress-container{
+  background: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 40px 20px;
+  height: 4px;
+  width: 90%;
+}
+
+.progress{
+  background: #242323;
+  border-radius: 5px;
+  height: 100%;
+  /*change to show progress*/
+  width: 0%;
+  transition: width 0.1s linear;
+}
+
+h2 {
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+  margin: 5px 0 0;
+}
+
+.duration-wrapper{
+  position: relative;
+  top: -30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.player-controls{
+  position: relative;
+  top: -15px;
+  left: 120px;
+  width: 200px;
+}
+
+.fa-solid{
+  font-size: 30px;
+  color: rgb(126, 104, 104);
+  margin-right: 30px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.fa-solid:hover{
+  filter: brightness(50%);
+}
+
+.fa-beat-hover:hover {
+  -webkit-animation: fa-beat 2s infinite linear;
+  -moz-animation: fa-beat 2s infinite linear;
+  -o-animation: fa-beat 2s infinite linear;
+  animation: fa-beat 2s infinite linear;
+}
+
+.main-button {
+  font-size: 40px;
+  position: relative;
+  top: 3px;
+}
+
+
+.title{
+  position: absolute;
+  width: 458px;
+  height: 135px;
+  top: 160px;
+  left: 221px;
+
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 67.5px;
+  text-align: left;
+
+}
+
+.text{
+  position: absolute;
+  width: 394px;
+  height: 96px;
+  top: 340px;
+  left: 221px;
+
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.app-store-btn{
+  position: absolute;
+  width: 138.44346618652344px;
+  height: 46.277523040771484px;
+  top: 480px;
+  left: 221px;
+
+}
+
+.app-store-btn img {
+  width: 138.44346618652344px;
+  height: 46.277523040771484px;
+}
+
+.google-play-btn{
+  position: absolute;
+  width: 156.18612670898438px;
+  height: 46.27737045288086px;
+  top: 480px;
+  left: 381.8138732910156px;
+  border: 0.2px solid #FFFFFF
+}
+
+.google-play-btn img{
+  width: 156.18612670898438px;
+  height: 46.27737045288086px;
+}
+
+.main-image-container{
+  position: absolute;
+  width: 535.7173461914062px;
+height: 309.2696533203125px;
+top: 229.7303466796875px;
+left: 683.28271484375px;
+padding: 0px 0px 0.000003520291102176998px 0px;
+
+}
+
+.main-image-container img{
+height: 411.15175339870024px
+}
+
+.profile-img{
+  position: absolute;
+  height: 444.0000000000001px;
+  top: 686px;
+  left: 737.0001220703125px;
+  
+}
+
+.orders-img{
+  position: absolute;
+  height: 470px;
+  top: 913px;
+  left: 479px;
+  
+}
+
+.home-img{
+  position: absolute;
+  height: 470px;
+  top: 908px;
+  left: 995px;
+  
+}
+
+.cart-img{
+  position: absolute;
+  height: 222px;
+  top: 1157px;
+  left: 221px;
+  
+}
+
+.product-img{
+  position: absolute;
+height: 222px;
+top: 1157px;
+left: 737px;
+
+}
+
+
+.background-toggles{
+  position: absolute;
+  right: 150px;
+  top: 70px;
+  display: flex;
+}
+
+.background-toggles > div{
+  height: 25px;
+  width: 25px;
+  border-radius: 5px;
+  margin-right: 10px;
+  box-shadow: 0 2px 5px 2px rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+
+.background-1{
+  background-color: #DFDBE5;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%239177ba' fill-opacity='0.17'%3E%3Cpath fill-rule='evenodd' d='M0 0h40v40H0V0zm40 40h40v40H40V40zm0-40h2l-2 2V0zm0 4l4-4h2l-6 6V4zm0 4l8-8h2L40 10V8zm0 4L52 0h2L40 14v-2zm0 4L56 0h2L40 18v-2zm0 4L60 0h2L40 22v-2zm0 4L64 0h2L40 26v-2zm0 4L68 0h2L40 30v-2zm0 4L72 0h2L40 34v-2zm0 4L76 0h2L40 38v-2zm0 4L80 0v2L42 40h-2zm4 0L80 4v2L46 40h-2zm4 0L80 8v2L50 40h-2zm4 0l28-28v2L54 40h-2zm4 0l24-24v2L58 40h-2zm4 0l20-20v2L62 40h-2zm4 0l16-16v2L66 40h-2zm4 0l12-12v2L70 40h-2zm4 0l8-8v2l-6 6h-2zm4 0l4-4v2l-2 2h-2z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+
+.background-2{
+  background-color: #daf9ea;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='152' height='152' viewBox='0 0 152 152'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='temple' fill='%233e5ac8' fill-opacity='0.4'%3E%3Cpath d='M152 150v2H0v-2h28v-8H8v-20H0v-2h8V80h42v20h20v42H30v8h90v-8H80v-42h20V80h42v40h8V30h-8v40h-42V50H80V8h40V0h2v8h20v20h8V0h2v150zm-2 0v-28h-8v20h-20v8h28zM82 30v18h18V30H82zm20 18h20v20h18V30h-20V10H82v18h20v20zm0 2v18h18V50h-18zm20-22h18V10h-18v18zm-54 92v-18H50v18h18zm-20-18H28V82H10v38h20v20h38v-18H48v-20zm0-2V82H30v18h18zm-20 22H10v18h18v-18zm54 0v18h38v-20h20V82h-18v20h-20v20H82zm18-20H82v18h18v-18zm2-2h18V82h-18v18zm20 40v-18h18v18h-18zM30 0h-2v8H8v20H0v2h8v40h42V50h20V8H30V0zm20 48h18V30H50v18zm18-20H48v20H28v20H10V30h20V10h38v18zM30 50h18v18H30V50zm-2-40H10v18h18V10z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.background-3{
+  background: #fffbd5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #b20a2c, #fffbd5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #b20a2c, #fffbd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+@media screen and (max-width: 376px) {
+  
+  .player-container{
+    width: 95vw;
+  }
+
+  .img-container{
+    left: 29px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3{
+    font-size: 15px;
+  }
+
+  .player-controls{
+    top: -10px;
+    left: 100px;
+  } 
+
+}
